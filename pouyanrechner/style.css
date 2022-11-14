@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+table {
+    width: 100%;
+    height:70vh;
+    background-color: #529092;
+    color: #eaea08;
+
+}
+td {
+    width: 25%;
+    text-align: center;
+    background-color: #05a2a2;
+    font-size: 65px;
+}
+td:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#resultArea{
+    height: 30vh;
+    background-color: #b2e5e5;
+    color: #032a2a;
+    font-size:70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+#result{
+    background-color: #05a2a2;
+}
+#result:hover{
+    background-color: #032a2a;
+}
+.highlight{
+    background-color: #05a2a2;
+}
